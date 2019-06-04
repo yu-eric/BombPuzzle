@@ -1,0 +1,3 @@
+# Bomb Defusal Puzzle
+
+Our project on the Raspberry PI will be a Bomb Defusing Puzzle. This project is conducted using Java and the Pi4J library. To start off the puzzle, a countdown timer will start counting down, and the player has to do certain actions such as rotating a joystick to a certain direction in order to obtain clues to a final code. This code will be typed on the numeric keypad to defuse the bomb. If the bomb timer runs out before the correct code is entered, an audio will play, indicating the explosion of the bomb, thus failing the puzzle. If the correct code is entered before the timer ends, an LED light will light up, indicating the bomb has been defused, and the player has won the game.
